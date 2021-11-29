@@ -684,11 +684,14 @@ footer p{
     text-align: center;
 }
 
-.main-panel-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) p,
-.main-panel-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) em{
+.main-panel-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) p
+{
     text-align: center;
 }
-
+.main-panel-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(3){
+    text-align: center;
+    font-style: italic;
+}
 .main-panel-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) #zambia-air-force-logo{
     width: 180px; 
     height: 180px;
@@ -801,7 +804,7 @@ footer p{
         position: relative; 
     }*/
     .navbar .search-box .input-box {
-        right: calc(100% - 58px);
+        right: calc(100% - 40px);
     }
 
     .marquee{
@@ -843,13 +846,13 @@ footer p{
         overflow-y: scroll;
     }
     
-    .navbar .search-box {
+    /*.navbar .search-box {
         padding-right: 50px;
     }
     
     .navbar .search-box i {
         padding-left: 25px;
-    }
+    }*/
 
     .sub-menu{
         border-radius: 4px;
