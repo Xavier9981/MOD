@@ -335,32 +335,36 @@ nav .navbar .links li:hover{
     }
 }
 
-/*styling slide-show-container img*/
+/*styling slide-show-container img
 .slide-show-container img{
-    width: 100%;
-}
+    
+}*/
 
 /*slideshow*/
 .mySlides {
+    box-shadow: 0px 3px 8px 0px #000000;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    background: #000000;
     display: none;
     width: 100%; 
     height: 500px;
-    bottom: #ffffff;
-    box-shadow: 0 30px 40px rgba(0,0,0,.2);
-    border: 2px solid #000000;
-    border-radius: 3px;
 }
+
 .mySlides img {
+    color: #ffffff;
     vertical-align: middle;
     height: 100%;
+    width: 100%;
+    border-radius: 5px;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-    height: 15px;
-    width: 15px;
+    height: 13px;
+    width: 13px;
     margin: 0 2px;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     background-color: #ffffff;
     border-radius: 50%;
     display: inline-block;
@@ -368,7 +372,7 @@ nav .navbar .links li:hover{
 }
 
 .dot.active {
-    border: 2px dotted #ffffff;
+    border: 1px solid #000000;
     background-color: #ff0606;
     border-radius: 50%;
 }
