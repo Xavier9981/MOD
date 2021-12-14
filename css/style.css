@@ -1020,9 +1020,6 @@ footer p{
         margin: 0 auto;
     }
       
-    .welcome-container > div:nth-child(2) p {
-        margin: 0 20px;
-    }
 }
 
 @media screen and (max-width: 320px){
@@ -1040,5 +1037,9 @@ footer p{
         width: 70px; 
         height: 55px; 
         margin-right: 0px;
+    }
+
+    .welcome-container > div:nth-child(2) p {
+        margin: 0 20px;
     }
 }
