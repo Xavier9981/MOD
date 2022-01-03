@@ -1,0 +1,14 @@
+<div class="post-container">
+    <div class="post-img-wrapper">
+        <img src="{{ post.data.image1 }}" alt="{{ post.data.imageAlt1 }}">
+    </div>
+    <div class="inner-post-container">
+        <div>
+            <h4 class="title-lns-blog-all">{{ post.data.title }}</h4>
+            <div class="name-date-tag">by<span class="name-tag" >{{ post.data.author }}</span>on<span class="date-tag">{{ post.date | postDate }}</span></div>
+        </div>
+        <div class="sell-all-btn-wrapper">
+            <div class="see-all-btn"><a href="{{ post.url }}">Continue Reading</a></div>
+        </div>                                
+    </div>
+</div>
