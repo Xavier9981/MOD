@@ -1,0 +1,24 @@
+---
+title: Latest News
+layout: 'base-non-active-link.njk'
+---
+<div class="main-container">
+
+    <main>
+
+        <div class="main-panel-container-post">
+            <div><h3>Latest News</h3></div>
+            <div>
+                <div class="responsive-container-wrapper">
+
+                    {%- for post in collections.lsprAll | reverse -%}
+                        {% include 'article-snippet.njk' %}
+                    {%- endfor -%}
+                      
+                </div>
+            </div>  
+        </div>
+        
+    </main>
+
+</div>
