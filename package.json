@@ -1,0 +1,24 @@
+{
+  "name": "mod",
+  "version": "1.0.0",
+  "description": "This is the my initial proposed vision of the new ministerial website of defence for the goverment of Zambia. The website is operating using the new system called JAMStack which is an architecture of building static websites.",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xavier9981/MOD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xavier9981/MOD/issues"
+  },
+  "homepage": "https://github.com/Xavier9981/MOD#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
