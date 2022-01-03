@@ -9,4 +9,3 @@ The starting files used by [Xavier K Muneku]in the `Ministry-of-Defence` folder 
 - `css` folder contains three CSS files for styling the pages.
 - `script` folder holds all the Javascript for the desired logic on this site.
 - `assets` has all the documents, images and logos. 
-
