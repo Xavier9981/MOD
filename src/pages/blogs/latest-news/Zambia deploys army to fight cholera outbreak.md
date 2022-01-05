@@ -3,7 +3,7 @@ title: Zambia deploys army to fight cholera outbreak
 author: Ian Banda
 date: 2018-02-28
 tags: ["lnsAll", "lnsNew"]
-image1: \assets\images\blog-images\419cda91d9ab4fdeae9260a0e807521e_18-750x330.jpg
+image1: /assets/images/post-images/419cda91d9ab4fdeae9260a0e807521e_18-750x330.jpg
 imageAlt1: Cholera medicine
 ---
 

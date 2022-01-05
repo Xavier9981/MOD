@@ -19,6 +19,8 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- End Font Awesome CSS Links-->
 
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
         <link rel="stylesheet" href="/css/grid-index.css">
         <link rel="stylesheet" href="/css/style.css">
         <link rel="icon" type="image/x-icon" href="/assets/logos/coat-of-arms-logo.png">
@@ -116,7 +118,7 @@
     </div>
 </div><div class="post-container">
     <div class="post-img-wrapper">
-        <img src="\assets\images\blog-images\419cda91d9ab4fdeae9260a0e807521e_18-750x330.jpg" alt="Cholera medicine">
+        <img src="/assets/images/post-images/419cda91d9ab4fdeae9260a0e807521e_18-750x330.jpg" alt="Cholera medicine">
     </div>
     <div class="inner-post-container">
         <div>
@@ -199,6 +201,18 @@
     <p>Copyright SMART Zambia Institute &copy; 2019-<span id="currentYear"></span>. All rights reserved.</p>
 </footer> 
     </body>
+
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+    </script>
     <script src="/script/slides-show-script.js"></script>
     <script src="/script/nav-responsive-script.js"></script>
     <script src="/script/current-year-script.js"></script>

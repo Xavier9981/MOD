@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="/css/grid-index.css">
         <link rel="stylesheet" href="/css/style.css">
         <link rel="icon" type="image/x-icon" href="assets/logos/coat-of-arms-logo.png">
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <title>Ministry of Defence - Home Page</title>
     </head>
     <body>
@@ -405,6 +406,18 @@
     <p>Copyright SMART Zambia Institute &copy; 2019-<span id="currentYear"></span>. All rights reserved.</p>
 </footer> 
     </body>
+
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+    </script>
     <script src="/script/slides-show-script.js"></script>
     <script src="/script/nav-responsive-script.js"></script>
     <script src="/script/current-year-script.js"></script>

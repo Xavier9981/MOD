@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="/css/style.css">
     <!--Favicon-->
     <link rel="icon" type="image/x-icon" href="/assets/logos/coat-of-arms-logo.png">
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>Ministry of Defence - All the Zambian Ministries</title>
     <style>
         .main-panel-container div:nth-child(2) div:nth-child(1) input{
@@ -745,6 +747,18 @@
     </div>
     <script src="/pages/pages/script/nav-responsive-script.js"></script>
     <script src="/pages/pages/script/current-year-script.js"></script>
+
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+    </script>
     <script type="application/javascript">
         function tableSearch() {
             let input, filter, table, tr, td, txtValue;

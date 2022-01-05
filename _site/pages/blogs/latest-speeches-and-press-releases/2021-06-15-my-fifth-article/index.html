@@ -17,6 +17,8 @@
         <!--Font Awesome CSS Links-->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- End Font Awesome CSS Links-->
+
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         
         <link rel="stylesheet" href="/css/grid-sub-pages.css">
         <link rel="stylesheet" href="/css/style.css">
@@ -121,7 +123,7 @@
                 
                 <figure class="post-figure">
                     <div class="img-figcaption-wrapper">
-                        <img src="\assets\images\slide-show\unnamed.jpg" alt="This an alt">
+                        <img src="/assets/images/slide-show/unnamed.jpg" alt="This an alt">
                         <figcaption class="figcap">This an alt</figcaption>
                     </div>
                 </figure>
@@ -215,6 +217,18 @@
     <p>Copyright SMART Zambia Institute &copy; 2019-<span id="currentYear"></span>. All rights reserved.</p>
 </footer> 
     </body>
+
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+    </script>
     <script src="/script/slides-show-script.js"></script>
     <script src="/script/nav-responsive-script.js"></script>
     <script src="/script/current-year-script.js"></script>
