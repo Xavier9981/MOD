@@ -7,7 +7,7 @@ public_folder: "/assets/post-images"
 collections:
   - name: "latest-news"
     label: "Latest News"
-    folder: "src/blogs/latest-news"
+    folder: "src/pages/blogs/latest-news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -32,7 +32,7 @@ collections:
 
   - name: "latest-speeches-and-press-releases"
     label: "Latest Speeches and Press Releases"
-    folder: "src/blogs/latest-speeches-and-press-releases"
+    folder: "src/pages/blogs/latest-speeches-and-press-releases"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -57,7 +57,7 @@ collections:
 
   - name: "featured-videos"
     label: "Featured Videos"
-    folder: "src/blogs/featured-videos"
+    folder: "src/pages/blogs/featured-videos"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
