@@ -7,13 +7,13 @@ tags:
   - lnsNew
 image1: /assets/post-images/img_1008.jpg
 imageAlt1: Ministry of Defence permanent secretary Stardy Mwale.
-textBody1: false
+textBody1: " "
 image2: false
-imageAlt2: false
-textBody2: false
+imageAlt2: " "
+textBody2: " "
 image3: false
-imageAlt3: false
-textBody3: false
+imageAlt3: " "
+textBody3: " "
 ---
 Ministry of Defence permanent secretary Stardy Mwale says people must provide evidence of any military officer harassing civilians in Lusaka.
 
