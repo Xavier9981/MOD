@@ -16,17 +16,17 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags (Add `lnsNew` for the post to show on the home page.)", name: "tags", widget: "list", default: ["lnsAll"] }
 
-      - { label: "First Featured Image", name: "image1", widget: "image", default: false }
-      - { label: "First Image Caption", name: "imageAlt1", widget: "string", default: false }
-      - { label: "Paragraph One", name: "textBody1", widget: "string", default: false }
+      - { label: "First Featured Image", name: "image1", widget: "image", default: " " }
+      - { label: "First Image Caption", name: "imageAlt1", widget: "string", default: " " }
+      - { label: "Paragraph One", name: "textBody1", widget: "string", default: " " }
 
-      - { label: "Second Featured Image", name: "image2", widget: "image", default: false }
-      - { label: "Second Image Caption (Optional if Second Featured Image not added.)", name: "imageAlt2", widget: "string", default: false }
-      - { label: "Paragraph Two (Optional if Second Featured Image not added.)", name: "textBody2", widget: "string", default: false }
+      - { label: "Second Featured Image", name: "image2", widget: "image", default: " " }
+      - { label: "Second Image Caption (Optional if Second Featured Image not added.)", name: "imageAlt2", widget: "string", default: " " }
+      - { label: "Paragraph Two (Optional if Second Featured Image not added.)", name: "textBody2", widget: "string", default: " " }
 
-      - { label: "Third Featured Image", name: "image3", widget: "image", default: false}
-      - { label: "Third Image Caption (Optional if Third Featured Image not added.)", name: "imageAlt3", widget: "string", default: false }
-      - { label: "Paragraph Three (Optional if Third Featured Image not added.)", name: "textBody3", widget: "string", default: false }
+      - { label: "Third Featured Image", name: "image3", widget: "image", default: " "}
+      - { label: "Third Image Caption (Optional if Third Featured Image not added.)", name: "imageAlt3", widget: "string", default: " " }
+      - { label: "Paragraph Three (Optional if Third Featured Image not added.)", name: "textBody3", widget: "string", default: " " }
 
       - { label: "Body", name: "body", widget: "markdown" }
 
@@ -41,17 +41,17 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags (Add `lsprNew` for the post to show on the home page.)", name: "tags", widget: "list", default: ["lsprAll"] }
 
-      - { label: "First Featured Image", name: "image1", widget: "image", default: false }
-      - { label: "First Image Caption", name: "imageAlt1", widget: "string", default: false }
-      - { label: "Paragraph One", name: "textBody1", widget: "string", default: false }
+      - { label: "First Featured Image", name: "image1", widget: "image", default: " " }
+      - { label: "First Image Caption", name: "imageAlt1", widget: "string", default: " " }
+      - { label: "Paragraph One", name: "textBody1", widget: "string", default: " " }
 
-      - { label: "Second Featured Image", name: "image2", widget: "image", default: false }
-      - { label: "Second Image Caption (Optional if Second Featured Image not added.)", name: "imageAlt2", widget: "string", default: false }
-      - { label: "Paragraph Two (Optional if Second Featured Image not added.)", name: "textBody2", widget: "string", default: false }
+      - { label: "Second Featured Image", name: "image2", widget: "image", default: " " }
+      - { label: "Second Image Caption (Optional if Second Featured Image not added.)", name: "imageAlt2", widget: "string", default: " " }
+      - { label: "Paragraph Two (Optional if Second Featured Image not added.)", name: "textBody2", widget: "string", default: " " }
 
-      - { label: "Third Featured Image", name: "image3", widget: "image", default: false }
-      - { label: "Third Image Caption (Optional if Third Featured Image not added.)", name: "imageAlt3", widget: "string", default: false }
-      - { label: "Paragraph Three (Optional if Third Featured Image not added.)", name: "textBody3", widget: "string", default: false }
+      - { label: "Third Featured Image", name: "image3", widget: "image", default: " " }
+      - { label: "Third Image Caption (Optional if Third Featured Image not added.)", name: "imageAlt3", widget: "string", default: " " }
+      - { label: "Paragraph Three (Optional if Third Featured Image not added.)", name: "textBody3", widget: "string", default: " " }
 
       - { label: "Body", name: "body", widget: "markdown" }
 
