@@ -28,7 +28,7 @@ collections:
       - { label: "Third Image Caption (Optional if Third Featured Image not added.)", name: "imageAlt3", widget: "string" }
       - { label: "Paragraph Three (Optional if Third Featured Image not added.)", name: "textBody3", widget: "string" }
 
-      - { label: "Body" name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
 collections:
   - name: "latest-speeches-and-press-releases"
@@ -54,7 +54,7 @@ collections:
       - { label: "Third Image Caption (Optional if Third Featured Image not added.)", name: "imageAlt3", widget: "string" }
       - { label: "Paragraph Three (Optional if Third Featured Image not added.)", name: "textBody3", widget: "string" }
 
-      - { label: "Body" name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
 collections:
   - name: "featured-videos"
