@@ -787,6 +787,7 @@ footer > p:nth-child(1){
 
 .img-figcaption-wrapper > img:nth-child(1){
     width: 100%;
+    box-shadow: 1px 1px 4px 1px #b0bec5;
 }
 .name-tag,
 .date-tag{
