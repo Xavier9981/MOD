@@ -11,6 +11,6 @@ imageAlt1: Document cover
 ---
 <!--StartFragment-->
 
-The Ministry of Defence (Zambia Army) (hereinafter referred to as “Contracting Authority”) wish to be engaged in the development of mixed use real estate infrastructure development and as part of this endeavour, the Contracting Authority wishes to undertake the development of various projects located in Lusaka and Livingstone. [read more...](/src/assets/documents/Addendum-No.-01.pdf)
+The Ministry of Defence (Zambia Army) (hereinafter referred to as “Contracting Authority”) wish to be engaged in the development of mixed use real estate infrastructure development and as part of this endeavour, the Contracting Authority wishes to undertake the development of various projects located in Lusaka and Livingstone. [read more...](/assets/documents/Addendum-No.-01.pdf)
 
 <!--EndFragment-->
