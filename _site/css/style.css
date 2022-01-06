@@ -797,9 +797,10 @@ footer > p:nth-child(1){
 }
 
 .figcap{
-    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display',serif;
+    font-style: italic;
     font-size: 1.1rem;
-    font-weight: 600;
+    /*font-weight: 600;*/
 }
 
 .post-container{
