@@ -1,7 +1,7 @@
 ---
 title: Inauguration Speech by the President of the Republic of Zambia His
   Excellence, Mr. Hakainde Hichilema
-author: Hakainde Hichilema
+author: Xavier K Muneku
 date: 2021-08-24T13:31:35.732Z
 tags:
   - lsprAll
