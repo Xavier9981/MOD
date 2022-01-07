@@ -43,5 +43,6 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Paste emded youtube link", name: "link", widget: "string"}
       - { label: "Tags (Add `fvNew` for the post to show on the home page.)", name: "tags", widget: "list", default: ["fvAll"] }
