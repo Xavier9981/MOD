@@ -819,6 +819,7 @@ footer > p:nth-child(1){
 .post-img-wrapper img{
     aspect-ratio: 5/4;
     width: 100%;
+    display: block;
 }
 .inner-post-container{
     background: #e2ffdf; 
