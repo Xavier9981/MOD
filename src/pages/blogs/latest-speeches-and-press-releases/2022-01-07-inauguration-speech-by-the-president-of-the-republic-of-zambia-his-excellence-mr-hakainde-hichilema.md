@@ -11,4 +11,4 @@ imageAlt1: Mr. Hakahinde Hichilema Given a Guard of Honour by the Zambian Army
   on his Inaguaration Ceremony. Tuesday, 24th August, 2021. At the National
   Heros Stadium Lusaka.
 ---
-Download the full speech [here](/assets/documents/PRESIDENT-HAKAINDE-HICHILEMA-DELIVERS-INAUGURAL-SPEECH.pdf)
+Download the full speech [here](/assets/documents/speeches/PRESIDENT-HAKAINDE-HICHILEMA-DELIVERS-INAUGURAL-SPEECH.pdf)
