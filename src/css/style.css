@@ -841,8 +841,9 @@ footer > p:nth-child(1) {
 }
 
 .post-container {
-  /*border: 1px solid #0c4f06;*/
-  box-shadow: 0 2px 8px 1px #0c4f06;
+  /*border: 1px solid #0c4f06;
+  box-shadow: 0 2px 8px 1px #0c4f06*/
+  box-shadow: 1px 1px 4px 1px #b0bec5;
   width: 15rem;
   margin: 15px;
   border-radius: 5px;
