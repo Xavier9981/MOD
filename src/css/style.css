@@ -852,18 +852,26 @@ footer > p:nth-child(1) {
 
 .post-img-wrapper {
   text-align: center;
-  padding: 5px;
+  padding: 5px 5px 0;
 }
 
 .post-img-wrapper img {
   aspect-ratio: 5/4;
   width: 100%;
+  height: 200px;
   display: block;
 }
 .inner-post-container {
+  display: flex;
+  flex-direction: column;
   background: #e2ffdf;
   border-top: 1px solid #0c4f06;
   border-radius: 0 0 5px 5px;
+  height: 240px;
+}
+
+.inner-post-container > div:nth-child(1) {
+  height: 190px;
 }
 
 .content-wrapper {
