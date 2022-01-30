@@ -20,7 +20,7 @@ function tableSearch() {
       }
     } else {
       document.getElementById("output").innerHTML =
-        "<div style='display: block; text-align: center;  border: 1px solid #ccc; padding: 1rem;border-left: 5px solid red; background-color: pink;color: red;border-radius: 8px;font-size: 1.6rem;text-align: center;'>Search not Found</div>";
+        "<div style='display: block; text-align: center;  border: 1px solid #ccc; padding: 1rem;border-left: 5px solid red; background-color: pink;color: red;border-radius: 8px; text-align: center;'>Sorry search not found</br>Verify spelling.</div>";
     }
   }
 }
