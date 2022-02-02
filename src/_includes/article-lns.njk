@@ -1,5 +1,5 @@
 ---
-layout: 'base-lns-blog.njk'
+layout: 'base-blog.njk'
 ---
 <main>
 
@@ -9,7 +9,7 @@ layout: 'base-lns-blog.njk'
             <section>
                 <div>
                     <h4 class="title-lns-blog">{{ title }}</h4>
-                    <div class="name-date-tag">by<span class="name-tag" >{{ author }}</span>On<span class="date-tag">{{ date | postDate }}</span></div>
+                    <div class="name-date-tag">by <i class="fas fa-user-edit"></i><span class="name-tag" >{{ author }}</span>on <i class="far fa-calendar-alt"></i><span class="date-tag">{{ date | postDate }}</span></div>
                 </div>
 
                 <figure class="post-figure">
