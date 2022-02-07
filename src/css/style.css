@@ -570,12 +570,14 @@ nav .navbar .links li:hover {
   background-color: white;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  border-top-left-radius: 25px;
   font-weight: 500;
   height: 200px;
   margin: 0.3rem;
   overflow: hidden;
   position: relative;
   padding: 10px;
+  border-top: 10px solid #0c4f06;
 }
 
 /*styling responsive-container-wrapper .info-card div h4*/
