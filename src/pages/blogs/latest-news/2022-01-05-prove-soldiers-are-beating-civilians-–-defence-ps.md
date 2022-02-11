@@ -5,7 +5,7 @@ date: 2018-02-28T19:13:57.216Z
 tags:
   - lnsAll
   - lnsNew
-image1: /assets/post-images/img_1008.jpg
+image1: /assets/post-images/stardy-mwale.jpg
 imageAlt1: Ministry of Defence permanent secretary Stardy Mwale
 ---
 <!--StartFragment-->
