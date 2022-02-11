@@ -1270,4 +1270,8 @@ footer > p:nth-child(1) {
   .welcome-container > div:nth-child(2) p {
     margin: 0 20px;
   }
+
+  .main-panel-container > div:nth-child(2) > div:nth-child(1) {
+    padding: 0 0.3rem 0.35rem;
+  }
 }
