@@ -567,7 +567,7 @@ nav .navbar .links li:hover {
   border-bottom-right-radius: 3px;
   border-top-left-radius: 25px;
   font-weight: 500;
-  height: 200px;
+  height: 245px;
   overflow: hidden;
   position: relative;
   padding: 10px;
@@ -576,7 +576,7 @@ nav .navbar .links li:hover {
 
 /*styling responsive-container-wrapper .info-card div h4*/
 .responsive-container-wrapper .info-card .headline-title {
-  height: 60px;
+  height: 80px;
 }
 
 /*styling fourth-container-wrapper .responsive-container-wrapper div*/
