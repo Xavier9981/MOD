@@ -1,0 +1,24 @@
+---
+title: Featured Videos
+layout: 'base-non-active-link.njk'
+---
+<div class="main-container">
+
+    <main>
+
+        <div class="main-panel-container-post">
+            <div><h3>Featured Videos</h3></div>
+            <div>
+                <div class="responsive-container-wrapper">
+
+                    {%- for post in collections.fvAll | reverse -%}
+                        {% include 'featured-video.njk' %}
+                    {%- endfor -%}
+
+                </div>
+            </div>  
+        </div>
+        
+    </main>
+
+</div>
