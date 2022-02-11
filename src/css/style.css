@@ -573,11 +573,10 @@ nav .navbar .links li:hover {
   border-top-left-radius: 25px;
   font-weight: 500;
   height: 200px;
-  margin: 0.3rem;
   overflow: hidden;
   position: relative;
   padding: 10px;
-  border-top: 10px solid #0c4f06;
+  border-top: 8px solid #0c4f06;
 }
 
 /*styling responsive-container-wrapper .info-card div h4*/
@@ -592,14 +591,12 @@ nav .navbar .links li:hover {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   font-weight: 500;
-  margin: 0.3rem;
   overflow: hidden;
   position: relative;
-  padding: 0px;
 }
 
 .iframe-panel {
-  height: 185px;
+  height: 200px;
 }
 
 .iframe-panel > iframe:nth-child(1) {
@@ -709,7 +706,7 @@ nav .navbar .links li:hover {
 footer > p:nth-child(1) {
   color: #ffffff;
   margin: auto;
-  padding: 10px;
+  padding: 10px 20px;
   text-align: center;
 }
 
@@ -1252,6 +1249,14 @@ footer > p:nth-child(1) {
   .post-container {
     margin: 7.5px 0;
     width: 100%;
+  }
+
+  .yt-video-container {
+    width: 100%;
+  }
+
+  .responsive-container-wrapper {
+    padding: 0.9rem 0.9rem 0.35rem 0.9rem;
   }
 }
 
