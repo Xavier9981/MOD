@@ -100,10 +100,20 @@ section {
   gap: 0.9rem;
 }
 
+.outter-responsive-container-wrapper {
+  border: 1px solid #ff8c00;
+  border-radius: 0px 0px 3px 3px;
+}
+
 .responsive-container-wrapper .info-card {
   display: flex;
   flex-direction: column;
   width: 18rem;
+}
+
+.see-all-button-container-wrapper {
+  display: flex;
+  height: 50px;
 }
 
 /*grid sub-footer*/

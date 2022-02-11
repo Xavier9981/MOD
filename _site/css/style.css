@@ -469,6 +469,10 @@ nav .navbar .links li:hover {
   width: 245px;
 }
 
+.first-container-wrapper > div:nth-child(2) > div:nth-child(2) {
+  display: none;
+}
+
 /*styling myMinSlides*/
 .myMinSlides {
   display: none;
@@ -639,6 +643,11 @@ nav .navbar .links li:hover {
   background: #0c4f06;
   opacity: 0.8;
   transform: scale(0.99);
+}
+
+.see-all-btn > a:nth-child(1) {
+  color: #fff;
+  text-decoration: none;
 }
 
 .responsive-container-wrapper a {

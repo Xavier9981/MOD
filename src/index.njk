@@ -162,7 +162,7 @@ layout: base.njk
                     <span><em class="figcap">The Government of the Republic of Zambia Stands Against any form of abuse.</em></span>
                 </div>
             </div>                    
-            <div style="display: none;">
+            <div>
                     <span class="minDot"></span> 
                     <span class="minDot"></span> 
                     <span class="minDot"></span> 
@@ -174,7 +174,7 @@ layout: base.njk
         <div>
             <h3>Latest News</h3>
         </div>
-        <div style="border:1px solid #ff8c00; border-radius: 0px 0px 3px 3px;">
+        <div class="outter-responsive-container-wrapper">
             <div class="responsive-container-wrapper">
             
                 {%- for post in collections.lnsNew | reverse -%}
@@ -182,8 +182,8 @@ layout: base.njk
                 {%- endfor -%}
 
             </div>
-            <div style="display: flex; height: 50px">
-                <div class="see-all-btn"><a style="color:#fff; text-decoration: none" href="/pages/blogs/latest-news-all">See All</a></div>
+            <div class="see-all-button-container-wrapper">
+                <div class="see-all-btn"><a href="/pages/blogs/latest-news-all">See All</a></div>
             </div>            
         </div>
 
@@ -194,7 +194,7 @@ layout: base.njk
             <h3>Latest Speeches and Press Releases</h3>
         </div>
 
-        <div style="border:1px solid #ff8c00; border-radius: 0px 0px 3px 3px;">
+        <div class="outter-responsive-container-wrapper">
             <div class="responsive-container-wrapper">
 
                 {%- for post in collections.lsprNew | reverse -%}
@@ -202,8 +202,8 @@ layout: base.njk
                 {%- endfor -%}
 
             </div>  
-            <div style="display: flex; height: 50px">
-                <div class="see-all-btn"><a style="color:#fff; text-decoration: none" href="/pages/blogs/latest-speeches-and-press-releases">See All</a></div>
+            <div class="see-all-button-container-wrapper">
+                <div class="see-all-btn"><a href="/pages/blogs/latest-speeches-and-press-releases">See All</a></div>
             </div>             
         </div>
      
@@ -214,7 +214,7 @@ layout: base.njk
             <h3>Featured Videos</h3>
         </div>
 
-        <div style="border:1px solid #ff8c00; border-radius: 0px 0px 3px 3px;">
+        <div class="outter-responsive-container-wrapper">
             <div class="responsive-container-wrapper">
                 
                 {%- for post in collections.fvNew | reverse -%}
@@ -222,8 +222,8 @@ layout: base.njk
                 {%- endfor -%}
 
             </div> 
-            <div style="display: flex; height: 50px">
-                <div class="see-all-btn"><a style="color:#fff; text-decoration: none" href="/pages/blogs/featured-video-all">See All</a></div>
+            <div class="see-all-button-container-wrapper">
+                <div class="see-all-btn"><a href="/pages/blogs/featured-video-all">See All</a></div>
             </div>        
         </div>
 
