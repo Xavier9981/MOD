@@ -5,7 +5,7 @@ date: 2018-02-28T19:41:32.247Z
 tags:
   - lnsAll
   - lnsNew
-image1: /assets/post-images/davies-chama2-1132x509-1024x460-750x330.jpg
+image1: /assets/post-images/davis-chama.jpg
 imageAlt1: Defence Minister Davis Chama.
 ---
 <!--StartFragment-->

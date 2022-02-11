@@ -6,7 +6,7 @@ date: 2019-09-13T11:56:55.531Z
 tags:
   - lsprAll
   - lsprNew
-image1: /assets/post-images/fb_img_1475415164343.jpg
+image1: /assets/post-images/lungu-adressing-the-national-assembly.jpg
 imageAlt1: President Edgar Lungu adresses the parliament
 ---
 Download the full speech [here](/assets/documents/speeches/Presidential-Speech.pdf)
