@@ -734,7 +734,7 @@ footer > p:nth-child(1) {
 .main-panel-container-post > div:nth-child(2) {
   border: 1px solid #ff8c00;
   border-radius: 0 0 3px 3px;
-  padding: 15px;
+  padding: 0 15px 15px;
 }
 
 .main-panel-container > div:nth-child(2) p {
@@ -873,7 +873,7 @@ footer > p:nth-child(1) {
 }
 
 .inner-post-container > div:nth-child(1) {
-  height: 190px;
+  height: 180px;
 }
 
 .content-wrapper {
@@ -882,7 +882,7 @@ footer > p:nth-child(1) {
 
 .sell-all-btn-wrapper {
   display: flex;
-  height: 50px;
+  height: 60px;
 }
 
 .sell-all-btn-wrapper > div:nth-child(1) > a:nth-child(1) {
@@ -1247,6 +1247,11 @@ footer > p:nth-child(1) {
 
   .welcome-container {
     margin: 0 auto;
+  }
+
+  .post-container {
+    margin: 7.5px 0;
+    width: 100%;
   }
 }
 
