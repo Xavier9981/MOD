@@ -6,7 +6,7 @@ author: MWANGO SICHONE
 date: 2020-03-02T19:46:34.024Z
 tags:
   - lnsAll
-image1: /assets/post-images/capture-d’écran-3-.png
+image1: /assets/post-images/document-cover.png
 imageAlt1: Document cover
 ---
 
