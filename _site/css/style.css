@@ -731,6 +731,10 @@ footer > p:nth-child(1) {
   padding: 0 0 0.55rem 0;
 }
 
+.main-panel-container > div:nth-child(2) > section:nth-child(1) {
+  padding: 0.9rem 0.5rem 0.35rem;
+}
+
 .main-panel-container > div:nth-child(2) p {
   margin: 15px 0 5px 0;
   text-align: left;
@@ -755,10 +759,6 @@ footer > p:nth-child(1) {
 
 .active-sub-menu {
   background: #0c4f06;
-}
-
-.main-panel-container > div:nth-child(2) h4 {
-  margin: 15px 0 0 0;
 }
 
 .main-panel-container > div:nth-child(2) > div:nth-child(1) {
