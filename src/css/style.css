@@ -731,7 +731,6 @@ footer > p:nth-child(1) {
 .main-panel-container-post > div:nth-child(2) {
   border: 1px solid #ff8c00;
   border-radius: 0 0 3px 3px;
-  padding: 0 15px 15px;
 }
 
 .main-panel-container > div:nth-child(2) p {
@@ -836,15 +835,11 @@ footer > p:nth-child(1) {
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-size: 1.1rem;
-  /*font-weight: 600;*/
 }
 
 .post-container {
-  /*border: 1px solid #0c4f06;
-  box-shadow: 0 2px 8px 1px #0c4f06*/
   box-shadow: 1px 1px 4px 1px #b0bec5;
-  width: 15rem;
-  margin: 15px;
+  width: 16rem;
   border-radius: 5px;
   display: grid;
 }
@@ -1247,7 +1242,6 @@ footer > p:nth-child(1) {
   }
 
   .post-container {
-    margin: 7.5px 0;
     width: 100%;
   }
 
