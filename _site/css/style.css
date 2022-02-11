@@ -844,9 +844,10 @@ footer > p:nth-child(1) {
 
 .post-container {
   box-shadow: 1px 1px 4px 1px #b0bec5;
-  width: 18rem;
   border-radius: 5px;
   display: grid;
+  margin: 0 5px;
+  width: 18rem;
 }
 
 .post-img-wrapper {
@@ -1221,6 +1222,7 @@ footer > p:nth-child(1) {
   }
 
   .post-container {
+    margin: 0;
     width: 100%;
   }
 
