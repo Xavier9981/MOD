@@ -735,24 +735,24 @@ footer > p:nth-child(1) {
   padding: 0.9rem 0.7rem 0.35rem;
 }
 
-.main-panel-container > div:nth-child(2) p {
-  margin: 5px 0;
+.main-panel-container > div:nth-child(2) > div:nth-child(1) p {
+  margin: 15px 0;
   text-align: left;
   font-size: 15px;
   line-height: 30px;
 }
 
-.main-panel-container > div:nth-child(2) p span {
+.main-panel-container > div:nth-child(2) > div:nth-child(1) p span {
   font-weight: 900;
   font-size: 15px;
 }
 
-.main-panel-container > div:nth-child(2) ul {
+.main-panel-container > div:nth-child(2) > div:nth-child(1) ul {
   margin-left: 30px;
   font-size: 15px;
 }
 
-.main-panel-container > div:nth-child(2) ul li {
+.main-panel-container > div:nth-child(2) > div:nth-child(1) ul li {
   margin-top: 10px;
   line-height: 30px;
 }
@@ -790,13 +790,18 @@ footer > p:nth-child(1) {
   text-align: center;
 }
 
-.main-panel-container > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) {
+.main-panel-container
+  > div:nth-child(2)
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > div:nth-child(3) {
   text-align: center;
   font-style: italic;
 }
 
 .main-panel-container
   > div:nth-child(2)
+  > div:nth-child(1)
   > div:nth-child(1)
   > div:nth-child(1)
   #zambia-air-force-logo {
