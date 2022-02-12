@@ -402,6 +402,7 @@ nav .navbar .links li:hover {
 
 /* The dots/bullets/indicators */
 .dot {
+  cursor: pointer;
   height: 13px;
   width: 13px;
   margin: 0 2px;
@@ -572,6 +573,36 @@ nav .navbar .links li:hover {
   position: relative;
   padding: 10px;
   border-top: 8px solid #0c4f06;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.555);
+  top: 50%;
+  width: auto;
+  padding: 7.5px 15px;
+  margin-top: -25px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /*styling responsive-container-wrapper .info-card div h4*/
