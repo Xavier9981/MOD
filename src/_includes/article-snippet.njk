@@ -5,7 +5,12 @@
     <div class="inner-post-container">
         <div>
             <h4 class="title-lns-blog-all">{{ post.data.title }}</h4>
-            <div class="name-date-tag">by <i class="fas fa-user-edit"></i><span class="name-tag" >{{ post.data.author }}</span>on <i class="far fa-calendar-alt"></i><span class="date-tag">{{ post.date | postDate }}</span></div>
+            <div class="name-date-tag">
+                <span class="no-wrap">by <i class="fas fa-user-edit"></i></span>
+                <span class="name-tag" >{{ post.data.author }}</span>
+                <span class="no-wrap">on <i class="far fa-calendar-alt"></i></span>
+                <span class="date-tag">{{ post.date | postDate }}</span>
+            </div>
         </div>
         <div class="sell-all-btn-wrapper">
             <div class="see-all-btn"><a href="{{ post.url }}">Continue Reading</a></div>

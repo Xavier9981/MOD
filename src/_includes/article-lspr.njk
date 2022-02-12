@@ -9,7 +9,12 @@ layout: 'base-blog.njk'
             <section>
                 <div>
                     <h4 class="title-lns-blog">{{ title }}</h4>
-                    <div class="name-date-tag">by <i class="fas fa-user-edit"></i><span class="name-tag" >{{ author }}</span>on <i class="far fa-calendar-alt"></i><span class="date-tag">{{ date | postDate  }}</span></div>
+                    <div class="name-date-tag">
+                        <span class="no-wrap">by <i class="fas fa-user-edit"></i></span>
+                        <span class="name-tag" >{{ author }}</span>
+                        <span class="no-wrap">on <i class="far fa-calendar-alt"></i></span>
+                        <span class="date-tag">{{ date | postDate }}</span>
+                    </div>
                 </div>
 
                 <figure class="post-figure">
