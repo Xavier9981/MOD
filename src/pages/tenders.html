@@ -85,30 +85,31 @@
         line-height: 30px;
       }
 
-      .tenders-panel-container > div:nth-child(2) table {
+      .table {
         border: 1px solid #000;
         border-collapse: collapse;
         box-shadow: 0px 0px 5px 1px #b0bec5;
         /**/
-        font-size: 1vw;
-        /**/
+        /*font-size: 1vw;
+
         margin: auto;
-        text-align: center;
-        width: 90%;
+        text-align: center;*/
+        width: 100%;
       }
 
-      .tenders-panel-container > div:nth-child(2) table tr:nth-child(even) {
+      .table tr:nth-child(even) {
         background-color: #ddd;
       }
 
-      .tenders-panel-container > div:nth-child(2) table tr th {
-        padding: 15px;
+      .table tr th {
+        padding: 5px 15px;
         border: 1px solid #ddd;
+        white-space: nowrap;
       }
 
       /* /**/
-      .tenders-panel-container > div:nth-child(2) table tr td {
-        padding: 15px 5px;
+      .table tr td {
+        padding: 5px 10px;
         border: 1px solid #ddd;
       }
 
@@ -133,20 +134,22 @@
         color: #005e99;
       }
 
-      @media screen and (max-width: 570px) {
+      .responsive-table-wrapper {
+        overflow-x: auto;
+      }
+
+      /*@media screen and (max-width: 570px) {
         .tenders-panel-container > div:nth-child(2) table {
           font-size: 1vw;
         }
-      }
+      }*/
 
       @media screen and (max-width: 369px) {
         .tenders-panel-container {
           border-radius: 3px;
-          /**/
           margin: 15px 15px 0px 15px;
         }
 
-        /**/
         .tenders-panel-container > div:nth-child(2) {
           padding: 5px 5px;
         }
@@ -338,61 +341,130 @@
               following <span style="font-weight: 900">:-</span>
             </p>
 
-            <table>
-              <tr>
-                <th>LOTS</th>
-                <th>PROJECT DESCRIPTION</th>
-                <th>PROJECT LOCATION</th>
-                <th>PROPOSED FOOTPRINT AREA</th>
-              </tr>
+            <div class="responsive-table-wrapper">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>LOTS</th>
+                    <th>PROJECT DESCRIPTION</th>
+                    <th>PROJECT LOCATION</th>
+                    <th>PROPOSED FOOTPRINT AREA</th>
+                  </tr>
+                </thead>
 
-              <tr>
-                <td>Lot 1.</td>
-                <td>
-                  <b>DEVELOPMENT OF A LUXURY 5 STAR HOTEL IN WOODLANDS</b>
-                </td>
-                <td>
-                  Corner of Yotum Muleya Road and Independence Avenue in Lusaka.
-                </td>
-                <td>37,396m<sup>2</sup></td>
-              </tr>
+                <tbody>
+                  <tr>
+                    <td>Lot 1.</td>
+                    <td>
+                      <b>DEVELOPMENT OF A LUXURY 5 STAR HOTEL IN WOODLANDS</b>
+                    </td>
+                    <td>
+                      Corner of Yotum Muleya Road and Independence Avenue in
+                      Lusaka.
+                    </td>
+                    <td>37,396m<sup>2</sup></td>
+                  </tr>
 
-              <tr>
-                <td>Lot 2.</td>
-                <td>
-                  <b>RE-DEVELOPMENT OF BON ACCORD INTO A BOUTIQUE HOTEL</b>
-                </td>
-                <td>
-                  Mosi-O-Tunya Avenue next to Total Service Station in
-                  Livingstone
-                </td>
-                <td>60,000m<sup>2</sup></td>
-              </tr>
+                  <tr>
+                    <td>Lot 2.</td>
+                    <td>
+                      <b>RE-DEVELOPMENT OF BON ACCORD INTO A BOUTIQUE HOTEL</b>
+                    </td>
+                    <td>
+                      Mosi-O-Tunya Avenue next to Total Service Station in
+                      Livingstone
+                    </td>
+                    <td>60,000m<sup>2</sup></td>
+                  </tr>
 
-              <tr>
-                <td>Lot 3.</td>
-                <td><b>DEVELOPMENT OF BUFFALO PARK SHOPPING MALL</b></td>
-                <td>
-                  Joe Chibangu Road off Kasama Road in Chalala Area of Lusaka
-                </td>
-                <td>39,513m<sup>2</sup></td>
-              </tr>
+                  <tr>
+                    <td>Lot 3.</td>
+                    <td><b>DEVELOPMENT OF BUFFALO PARK SHOPPING MALL</b></td>
+                    <td>
+                      Joe Chibangu Road off Kasama Road in Chalala Area of
+                      Lusaka
+                    </td>
+                    <td>39,513m<sup>2</sup></td>
+                  </tr>
 
-              <tr>
-                <td>Lot 4.</td>
-                <td>
-                  <b
-                    >DEVELOPMENT OF A TOURIST LODGE AT LIVINGSTONE ZAMBIA ARMY
-                    OFFICERS MESS</b
-                  >
-                </td>
-                <td>
-                  Off Mosi-o-Tunya Road at the corner of Obote and Chimwemwe
-                  Road in Livingstone
-                </td>
-                <td>46,000m<sup>2</sup></td>
-              </tr>
-            </table>
+                  <tr>
+                    <td>Lot 4.</td>
+                    <td>
+                      <b
+                        >DEVELOPMENT OF A TOURIST LODGE AT LIVINGSTONE ZAMBIA
+                        ARMY OFFICERS MESS</b
+                      >
+                    </td>
+                    <td>
+                      Off Mosi-o-Tunya Road at the corner of Obote and Chimwemwe
+                      Road in Livingstone
+                    </td>
+                    <td>46,000m<sup>2</sup></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <!--<div style="overflow-x: scroll">
+                <table class="table">
+                  <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Points</th>
+                    <th>Points</th>
+                    <th>Points</th>
+                    <th>Points</th>
+                    <th>Points</th>
+                    <th>Points</th>
+                    <th>Points</th>
+                    <th>Points</th>
+                    <th>Points</th>
+                    <th>Points</th>
+                  </tr>
+                  <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                  </tr>
+                  <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                    <td>94</td>
+                    <td>94</td>
+                    <td>94</td>
+                    <td>94</td>
+                    <td>94</td>
+                    <td>94</td>
+                    <td>94</td>
+                    <td>94</td>
+                    <td>94</td>
+                  </tr>
+                  <tr>
+                    <td>Adam</td>
+                    <td>Johnson</td>
+                    <td>67</td>
+                    <td>67</td>
+                    <td>67</td>
+                    <td>67</td>
+                    <td>67</td>
+                    <td>67</td>
+                    <td>67</td>
+                    <td>67</td>
+                    <td>67</td>
+                    <td>67</td>
+                  </tr>
+                </table>
+              </div>-->
+            </div>
 
             <h2>Download Documents Below</h2>
 
