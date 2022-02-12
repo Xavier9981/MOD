@@ -59,7 +59,7 @@ section {
 .slide-show-container {
   display: grid;
   grid-area: slide-show-container;
-  margin: 10px 0 70px 0;
+  margin: 20px 0 70px 0;
   position: relative;
 }
 
