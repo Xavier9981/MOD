@@ -5,7 +5,7 @@ date: 2018-02-28T19:18:50.081Z
 tags:
   - lnsAll
   - lnsNew
-image1: /assets/post-images/chorela-medication.jpg
+image1: /assets/images/post-images/chorela-medication.jpg
 imageAlt1: Cholera medication
 ---
 <!--StartFragment-->

@@ -6,6 +6,7 @@ author: MWANGO SICHONE
 date: 2020-03-02T19:46:34.024Z
 tags:
   - lnsAll
+  - lnsNew
 image1: /assets/images/post-images/document-cover.png
 imageAlt1: Document cover
 ---
