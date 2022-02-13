@@ -5,7 +5,7 @@ date: 2018-02-28T19:27:19.347Z
 tags:
   - lnsAll
   - lnsNew
-image1: /assets/post-images/volunteers-alhabibiyya-feeding-program2013.jpg
+image1: /assets/images/post-images/volunteers-alhabibiyya-feeding-program2013.jpg
 imageAlt1: Volunteers Alhabibiyya Feeding Program
 ---
 <!--StartFragment-->
