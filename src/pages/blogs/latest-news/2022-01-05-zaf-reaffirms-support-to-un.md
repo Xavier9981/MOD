@@ -5,7 +5,7 @@ date: 2018-02-28T19:30:47.709Z
 tags:
   - lnsAll
   - lnsNew
-image1: /assets/post-images/un-peacekeepers-600x330.jpg
+image1: /assets/images/post-images/un-peacekeepers-600x330.jpg
 imageAlt1: Zambian Peacekeepers Pose for a Photo Before Deployment.
 ---
 <!--StartFragment-->
