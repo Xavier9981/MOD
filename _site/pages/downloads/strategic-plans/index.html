@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Boxicons CDN Links-->
-            <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-        <!-- End Boxicons CDN Links-->
+    <!-- Boxicons CDN Links-->
+      <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- End Boxicons CDN Links-->
 
-        <!-- Google Fonts -->
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-        <!-- End Google Fonts -->
-        
-        <!--Font Awesome CSS Links-->
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous"/>
-        <!-- End Font Awesome CSS Links-->
+    <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <!-- End Google Fonts -->
+    
+    <!--Font Awesome CSS Links-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous"/>
+    <!-- End Font Awesome CSS Links-->
 
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-        <link rel="stylesheet" href="/css/grid-index.css">
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="icon" type="image/x-icon" href="/assets/logos/coat-of-arms-logo.png">
-        <title>Ministry of Defence - Strategic Plans</title>
-    </head>
-    <body>
-        <header>
+    <link rel="stylesheet" href="/css/grid-index.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/logos/coat-of-arms-logo.png">
+    <title>Ministry of Defence - Strategic Plans</title>
+  </head>
+  <body>
+    <header>
     <div class="coat-of-arms-logo">
         <img src="/assets/logos/coat-of-arms-logo.png" alt="zambian-coat-of-arms-logo">
     </div>
@@ -39,7 +39,7 @@
         <img src="/assets/logos/kisspng-flag-of-zambia.png" alt="zambian-national-flag">
     </div>
 </header>
-        <nav>
+    <nav>
     <div class="navbar">
         <i class='bx bx-menu'></i>
         <div class="logo">
@@ -96,7 +96,7 @@
         </div>
     </div>
 </nav>
-        
+    
 <main>
   <div class="main-panel-container">
     <div><h3>Strategic Plans</h3></div>
@@ -106,7 +106,7 @@
   </div>
 </main>
 
-        <div class="sub-footer">
+    <div class="sub-footer">
     <div>
         <ul><h2>External Links</h2>
             <li><a href="https://www.sh.gov.zm/">State House</a></li>
@@ -169,20 +169,10 @@
 <footer>
     <p>Copyright SMART Zambia Institute &copy; 2019-<span id="currentYear"></span>. All rights reserved.</p>
 </footer> 
-    </body>
+  </body>
 
-    <script>
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", user => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
-          });
-        }
-    </script>
-    <script src="/script/slides-show-script.js"></script>
-    <script src="/script/nav-responsive-script.js"></script>
-    <script src="/script/current-year-script.js"></script>
+  <script src="/script/netlify-user-identity.js"></script>
+  <script src="/script/slides-show-script.js"></script>
+  <script src="/script/nav-responsive-script.js"></script>
+  <script src="/script/current-year-script.js"></script>
 </html>

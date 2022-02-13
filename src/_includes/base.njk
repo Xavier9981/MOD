@@ -1,41 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Boxicons CDN Link -->
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-        <!--Font Awesome CSS Links-->
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous"/>
-        <!-- End Font Awesome CSS Links-->
-        <link rel="stylesheet" href="/css/grid-index.css">
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="icon" type="image/x-icon" href="assets/logos/coat-of-arms-logo.png">
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        <title>Ministry of Defence - {{ title }}</title>
-    </head>
-    <body>
-        {% include 'header.njk' %}
-        {% include 'nav.njk' %}
-        {{ content | safe }}
-        {% include 'footer.njk' %}
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!--Font Awesome CSS Links-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous"/>
+    <!-- End Font Awesome CSS Links-->
+    <link rel="stylesheet" href="/css/grid-index.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/logos/coat-of-arms-logo.png">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <title>Ministry of Defence - {{ title }}</title>
+  </head>
+  <body>
+    {% include 'header.njk' %}
+    {% include 'nav.njk' %}
+    {{ content | safe }}
+    {% include 'footer.njk' %}
+  </body>
 
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
-    <script src="/script/slides-show-script.js"></script>
-    <script src="/script/mini-slides-show-script.js"></script>
-    <script src="/script/auto-slides-show-script.js"></script>
-    <script src="/script/nav-responsive-script.js"></script>
-    <script src="/script/current-year-script.js"></script>
+  <script src="/script/netlify-user-identity.js"></script>
+  <script src="/script/slides-show-script.js"></script>
+  <script src="/script/mini-slides-show-script.js"></script>
+  <script src="/script/auto-slides-show-script.js"></script>
+  <script src="/script/nav-responsive-script.js"></script>
+  <script src="/script/current-year-script.js"></script>
 </html>

@@ -333,17 +333,7 @@
       </footer>
     </div>
 
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", (user) => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
+    <script src="/script/netlify-user-identity.js"></script>
     <script src="/script/nav-responsive-script.js"></script>
     <script src="/script/current-year-script.js"></script>
   </body>
