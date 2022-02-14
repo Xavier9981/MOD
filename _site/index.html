@@ -25,30 +25,8 @@
     />
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>Ministry of Defence - Home Page</title>
-    <style>
-      #myBtn {
-        display: none;
-        position: fixed;
-        bottom: 15px;
-        right: 15px;
-        z-index: 99;
-        font-size: 18px;
-        border: none;
-        outline: none;
-        background-color: #ff0606;
-        color: white;
-        cursor: pointer;
-        padding: 15px 10px;
-        border-radius: 50% 50% 25% 25%
-      }
-
-      #myBtn:hover {
-        background-color: #555;
-      }
-    </style>
   </head>
   <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">&#923;</button>
     <header>
     <div class="coat-of-arms-logo">
         <img src="/assets/logos/coat-of-arms-logo.png" alt="zambian-coat-of-arms-logo">
@@ -60,7 +38,8 @@
     <div class="zambian-national-flag-log">
         <img src="/assets/logos/kisspng-flag-of-zambia.png" alt="zambian-national-flag">
     </div>
-</header> <nav>
+</header> 
+    <nav>
     <div class="navbar">
         <i class='bx bx-menu'></i>
         <div class="logo">
@@ -117,6 +96,7 @@
         </div>
     </div>
 </nav> 
+    
 <main class="main-content-container">
   <div class="marquee">
     <p>
@@ -405,20 +385,6 @@
 </div>
 <div class="info-card">
   <div class="headline-title">
-    <h4>Zambia deploys army to fight cholera outbreak</h4>
-  </div>
-  <div class="name-date-tag">
-    <span class="no-wrap">by <i class="fas fa-user-edit"></i></span>
-    <span class="name-tag">Ian Banda</span>
-    <span class="no-wrap">on <i class="far fa-calendar-alt"></i></span>
-    <span class="date-tag">28 févr. 2018</span>
-  </div>
-  <div class="read-more-btn-wrapper-container">
-    <a href="/pages/blogs/latest-news/2022-01-05-zambia-deploys-army-to-fight-cholera-outbreak/" class="read-more-btn">Read More</a>
-  </div>
-</div>
-<div class="info-card">
-  <div class="headline-title">
     <h4>Prove soldiers are beating civilians – Defence PS</h4>
   </div>
   <div class="name-date-tag">
@@ -560,7 +526,8 @@
     </div>
   </div>
 </main>
- <div class="sub-footer">
+ 
+    <div class="sub-footer">
     <div>
         <ul><h2>External Links</h2>
             <li><a href="https://www.sh.gov.zm/">State House</a></li>
@@ -624,33 +591,6 @@
     <p>Copyright SMART Zambia Institute &copy; 2019-<span id="currentYear"></span>. All rights reserved.</p>
 </footer> 
   </body>
-
-  <script>
-    //Get the button
-    var mybutton = document.getElementById("myBtn");
-
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-      scrollFunction();
-    };
-
-    function scrollFunction() {
-      if (
-        document.body.scrollTop > 3000 ||
-        document.documentElement.scrollTop > 3000
-      ) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  </script>
 
   <script src="/script/netlify-user-identity.js"></script>
   <script src="/script/slides-show-script.js"></script>
