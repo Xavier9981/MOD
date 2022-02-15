@@ -775,6 +775,13 @@ footer > p:nth-child(1) {
   line-height: 30px;
 }
 
+.main-panel-container > div:nth-child(2) > section:nth-child(1) p {
+  margin: 15px 0;
+  text-align: left;
+  font-size: 15px;
+  line-height: 30px;
+}
+
 .main-panel-container > div:nth-child(2) > div:nth-child(1) p span {
   font-weight: 900;
   font-size: 15px;
