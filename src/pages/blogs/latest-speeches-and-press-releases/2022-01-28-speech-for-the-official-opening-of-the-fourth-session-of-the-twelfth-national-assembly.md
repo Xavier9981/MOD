@@ -7,6 +7,7 @@ tags:
   - lsprAll
   - lsprNew
 image1: /assets/images/post-images/lungu-adressing-the-national-assembly.jpg
-imageAlt1: President Edgar Lungu adresses the parliament
+imageAlt1: President Edgar Lungu adresses the parliament.
 ---
+
 Download the full speech [here](/assets/documents/speeches/Presidential-Speech.pdf)

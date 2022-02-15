@@ -8,7 +8,7 @@ tags:
   - lsprAll
   - lsprNew
 image1: /assets/images/post-images/president-edgar-lungu-and-wife-esther-lungu-pay-tribute-to-late-former-first-president-kenneth-kaunda.jpg
-imageAlt1: president Edgar Lungu and wife Esther Lungu pay tribute to late
-  former first president Kenneth Kaunda.jpg
+imageAlt1: president Edgar Lungu and wife Esther Lungu pay tribute to late former first president Kenneth Kaunda.
 ---
+
 Download the full statement [here](\assets\documents\statements\Statement-for-HE-on-State-Funeral.pdf)

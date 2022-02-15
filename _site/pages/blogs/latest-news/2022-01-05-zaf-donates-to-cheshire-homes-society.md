@@ -6,8 +6,9 @@ tags:
   - lnsAll
   - lnsNew
 image1: /assets/images/post-images/volunteers-alhabibiyya-feeding-program2013.jpg
-imageAlt1: Volunteers Alhabibiyya Feeding Program
+imageAlt1: Volunteers Alhabibiyya at the Feeding Program.
 ---
+
 <!--StartFragment-->
 
 THE Zambia Air Force (ZAF) yesterday celebrated the New Year by donating food hampers to the Cheshire Homes Society of Zambia Chawama Township branch, with the deputy acting Air Commander Kapotwe Chintu urging the officers not to tire in assisting the needy.

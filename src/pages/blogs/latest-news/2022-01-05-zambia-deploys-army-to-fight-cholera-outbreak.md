@@ -5,8 +5,9 @@ date: 2018-02-28T19:18:50.081Z
 tags:
   - lnsAll
 image1: /assets/images/post-images/chorela-medication.jpg
-imageAlt1: Cholera medication
+imageAlt1: Cholera medication.
 ---
+
 <!--StartFragment-->
 
 President Edgar Lungu has dispatched the military to help fight a cholera outbreak, which has killed 41 people in the capital, Lusaka, and affected more than 1,500 others since September.

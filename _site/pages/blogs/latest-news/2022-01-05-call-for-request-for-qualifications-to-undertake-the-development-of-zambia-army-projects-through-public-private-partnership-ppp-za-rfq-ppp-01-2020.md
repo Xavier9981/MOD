@@ -8,7 +8,7 @@ tags:
   - lnsAll
   - lnsNew
 image1: /assets/images/post-images/document-cover.png
-imageAlt1: Document cover
+imageAlt1: Document cover.
 ---
 
 <!--StartFragment-->
