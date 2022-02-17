@@ -129,11 +129,11 @@ section {
 
 /*grid footer*/
 footer {
-  bottom: 0;
-  font-size: 15px;
   background: #000;
-  grid-area: footer;
   display: flex;
+  grid-area: footer;
+  font-size: 15px;
+  height: 70px;
 }
 
 /*===============*/
