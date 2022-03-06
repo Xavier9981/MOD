@@ -17,6 +17,7 @@
 .coat-of-arms-logo img {
   height: inherit;
   width: inherit;
+  font-size: 12px;
 }
 
 header > div:nth-child(2) {
@@ -32,6 +33,7 @@ header > div:nth-child(2) {
 .zambian-national-flag-log img {
   height: inherit;
   width: inherit;
+  font-size: 12px;
 }
 
 .active {
