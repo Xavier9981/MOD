@@ -1353,3 +1353,22 @@ footer > p:nth-child(1) {
     padding: 0 0.3rem 0.35rem;
   }
 }
+
+@media screen and (max-width: 280px) {
+  header .coat-of-arms-logo {
+    width: 30px;
+    height: 40px;
+    margin: auto 10px auto 5px;
+  }
+
+  header .zambian-national-flag-log {
+    width: 45px;
+    height: 40px;
+    margin-right: 0px;
+  }
+
+  .mySlides {
+    display: none;
+    height: 225px;
+  }
+}
