@@ -735,7 +735,7 @@ footer > p:nth-child(1) {
 .main-panel-container,
 .main-panel-container-post {
   border-radius: 3px;
-  margin: 15px 15px 0px 15px;
+  margin: 15px 20px 0px 20px;
 }
 
 .main-panel-container > div:nth-child(1),
