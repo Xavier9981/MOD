@@ -133,7 +133,7 @@ footer {
   display: flex;
   grid-area: footer;
   font-size: 15px;
-  height: 70px;
+  min-height: 65px;
 }
 
 /*===============*/

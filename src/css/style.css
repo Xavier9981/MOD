@@ -759,15 +759,20 @@ footer > p:nth-child(1) {
   padding: 0.9rem 0.7rem 0.35rem;
 }
 
-.main-panel-container > div:nth-child(2) > div:nth-child(1) p {
+.main-panel-container > div:nth-child(2) > div:nth-child(1) p,
+.main-panel-container > div:nth-child(2) > section:nth-child(1) p {
   margin: 15px 0;
   text-align: left;
   font-size: 1rem;
   line-height: 30px;
 }
 
-.main-panel-container > div:nth-child(2) > section:nth-child(1) p {
-  margin: 15px 0;
+.function {
+  margin-top: 15px 0;
+}
+
+.sub-function {
+  margin: 5px 0 0;
   text-align: left;
   font-size: 1rem;
   line-height: 30px;

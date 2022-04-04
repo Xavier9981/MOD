@@ -505,7 +505,7 @@ nav .navbar .links li:hover {
 }
 
 .welcome-container > div:nth-child(1) h2 {
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
   text-decoration: underline;
   margin: 0 5px;
@@ -527,36 +527,23 @@ nav .navbar .links li:hover {
 }
 
 /*styling second-container-wrapper > div:nth-child(1)*/
-.second-container-wrapper > div:nth-child(1) {
-  background: #ff8c00;
-  border-radius: 3px 3px 0 0;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 900;
-  padding: 5px;
-  text-align: center;
-}
-
 /*styling third-container-wrapper > div:nth-child(1)*/
-.third-container-wrapper > div:nth-child(1) {
-  background: #ff8c00;
-  border-radius: 3px 3px 0 0;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 900;
-  padding: 5px;
-  text-align: center;
-}
-
 /*styling fourth-container-wrapper > div:nth-child(1)*/
+.second-container-wrapper > div:nth-child(1),
+.third-container-wrapper > div:nth-child(1),
 .fourth-container-wrapper > div:nth-child(1) {
   background: #ff8c00;
   border-radius: 3px 3px 0 0;
   color: #fff;
-  font-size: 20px;
   font-weight: 900;
   padding: 5px;
   text-align: center;
+}
+
+.second-container-wrapper > div:nth-child(1) h3,
+.third-container-wrapper > div:nth-child(1) h3,
+.fourth-container-wrapper > div:nth-child(1) h3 {
+  font-size: 22px;
 }
 
 /*styling responsive-container-wrapper*/
@@ -772,15 +759,20 @@ footer > p:nth-child(1) {
   padding: 0.9rem 0.7rem 0.35rem;
 }
 
-.main-panel-container > div:nth-child(2) > div:nth-child(1) p {
+.main-panel-container > div:nth-child(2) > div:nth-child(1) p,
+.main-panel-container > div:nth-child(2) > section:nth-child(1) p {
   margin: 15px 0;
   text-align: left;
   font-size: 1rem;
   line-height: 30px;
 }
 
-.main-panel-container > div:nth-child(2) > section:nth-child(1) p {
-  margin: 15px 0;
+.function {
+  margin-top: 15px 0;
+}
+
+.sub-function {
+  margin: 5px 0 0;
   text-align: left;
   font-size: 1rem;
   line-height: 30px;
@@ -1310,6 +1302,31 @@ footer > p:nth-child(1) {
   }
 }
 
+@media screen and (max-width: 360px) {
+  header .coat-of-arms-logo {
+    width: 45px;
+    height: 50px;
+    margin: auto 10px auto 5px;
+  }
+
+  header > div:nth-child(2) {
+    font-size: 9px;
+  }
+
+  header .zambian-national-flag-log {
+    width: 70px;
+    height: 55px;
+    margin-right: 0px;
+  }
+
+  /*main panel container*/
+  .main-panel-container,
+  .main-panel-container-post {
+    border-radius: 3px;
+    margin: 15px 20px 0px 20px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   header .coat-of-arms-logo {
     width: 45px;
@@ -1333,5 +1350,24 @@ footer > p:nth-child(1) {
 
   .main-panel-container > div:nth-child(2) > div:nth-child(1) {
     padding: 0 0.3rem 0.35rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  header .coat-of-arms-logo {
+    width: 30px;
+    height: 40px;
+    margin: auto 10px auto 5px;
+  }
+
+  header .zambian-national-flag-log {
+    width: 45px;
+    height: 40px;
+    margin-right: 0px;
+  }
+
+  .mySlides {
+    display: none;
+    height: 225px;
   }
 }
