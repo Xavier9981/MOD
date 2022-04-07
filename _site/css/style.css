@@ -249,7 +249,7 @@ nav .navbar .links li:hover .js-sub-menu {
   font-weight: var(--fw-600);
   cursor: pointer;
   transition: all 0.3s ease;
-  display: none;
+  /*display: none;*/
 }
 
 .navbar .search-box .input-box {
@@ -558,7 +558,7 @@ nav .navbar .links li:hover {
 
 .welcome-container > div:nth-child(2) p a {
   color: #005e99;
-  font-weight: var(--fw-900);
+  font-weight: var(--fw-700);
 }
 
 /*styling second-container-wrapper > div:nth-child(1)*/
@@ -656,6 +656,7 @@ nav .navbar .links li:hover {
   line-clamp: 3;
   overflow: hidden;
   line-height: 30px;
+  font-size: var(--fs-reg-17);
 }
 
 /*styling .read-more-btn*/
@@ -671,7 +672,7 @@ nav .navbar .links li:hover {
   padding: 5px 15px;
   border-radius: 3px;
   box-shadow: var(--bs-2);
-  font-weight: var(--fw-900);
+  font-weight: var(--fw-700);
   font-size: var(--fs-reg-15);
   text-align: center;
   letter-spacing: 0.05em;

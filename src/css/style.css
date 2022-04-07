@@ -249,7 +249,7 @@ nav .navbar .links li:hover .js-sub-menu {
   font-weight: var(--fw-600);
   cursor: pointer;
   transition: all 0.3s ease;
-  display: none;
+  /*display: none;*/
 }
 
 .navbar .search-box .input-box {
