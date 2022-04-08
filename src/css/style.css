@@ -24,7 +24,7 @@
   --clr-red: #ff0606;
   --clr-black: #000000;
   --clr-gray-500: #727272;
-  --clr-white-100: #f0fff0;
+  --clr-white-100: #fcfdfc;
   --clr-white: #ffffff;
 
   --bs-reg: 0px 0px 1px 0px;
@@ -503,6 +503,7 @@ nav .navbar .links li:hover {
 
 /*styling first-container-wrapper > div:nth-child(2) > div:nth-child(1)*/
 .first-container-wrapper > div:nth-child(2) > div:nth-child(1) {
+  background-color: var(--clr-white);
   box-shadow: var(--bs-2);
   border-radius: 3px;
   padding: 10px;
