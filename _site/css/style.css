@@ -579,7 +579,6 @@ nav .navbar .links li:hover {
 .third-container-wrapper > div:nth-child(1) h3,
 .fourth-container-wrapper > div:nth-child(1) h3 {
   font-size: var(--fs-reg-25);
-  font-weight: var(--fw-900);
 }
 
 /*styling responsive-container-wrapper*/
