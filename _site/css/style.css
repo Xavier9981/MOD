@@ -570,9 +570,16 @@ nav .navbar .links li:hover {
   background: var(--clr-orange);
   border-radius: 3px 3px 0 0;
   color: var(--clr-white);
-  font-weight: var(--fw-900);
+
   padding: 5px;
   text-align: center;
+}
+
+.second-container-wrapper > div:nth-child(1) h3,
+.third-container-wrapper > div:nth-child(1) h3,
+.fourth-container-wrapper > div:nth-child(1) h3 {
+  font-size: var(--fs-reg-25);
+  font-weight: var(--fw-900);
 }
 
 /*styling responsive-container-wrapper*/
@@ -1318,7 +1325,7 @@ footer {
   }
 
   .responsive-container-wrapper {
-    padding: 0.9rem 0.9rem 0.35rem 0.9rem;
+    padding: 0.9rem 0.9rem 0.75rem 0.9rem;
   }
 }
 
