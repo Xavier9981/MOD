@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/Xavier9981/MOD#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^1.0.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
